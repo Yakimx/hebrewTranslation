@@ -1,0 +1,13 @@
+.layout {
+  display: grid;
+  grid-template-rows: 100px 400px;
+  grid-template-columns: 48% 1fr 48%;
+  grid-gap: 0.1vw;
+
+  div {
+    font-size: 4vw;
+    //padding: 0.5em;
+    //background: gold;
+    text-align: center;
+  }
+}
