@@ -12,10 +12,8 @@ import Layout from "./components/layout/Layout";
 import { RateContext } from "./context/ratecontext";
 
 function App() {
-  const englayout =
-    "|`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./`1234567890-=QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./ \n";
-  const heblayout =
-    "|;1234567890-=/'קראטוןםפ][שדגכעיחלךף,זסבהנמצתץ.;1234567890-=QWERTYUIOP][ASDFGHJKL;'ZXCVBNM,./ \n";
+  const englayout = `\`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>? \n`;
+  const heblayout = `;1234567890-=/'קראטוןםפ][\\שדגכעיחלךף,זסבהנמצתץ.~!@#$%^&*)(_+QWERTYUIOP}{|ASDFGHJKL:"ZXCVBNM><? \n`;
 
   const dispatch = useDispatch();
 
